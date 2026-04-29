@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ご予約 | 酒屋もりがき</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-900 antialiased">
+    <div class="grain-overlay"></div>
+    
+    <nav class="fixed top-0 left-0 w-full z-40 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-widest text-morigaki-blue">酒屋もりがき</a>
+            <div class="hidden md:flex space-x-12 font-bold tracking-tighter">
+                <a href="index.html" class="nav-link relative text-sm tracking-widest">ホーム</a>
+                <a href="menu.html" class="nav-link relative text-sm tracking-widest">お品書き</a>
+                <a href="access.html" class="nav-link relative text-sm tracking-widest">アクセス</a>
+                <a href="reserve.html" class="nav-link relative text-sm tracking-widest">ご予約</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-40 pb-32">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h1 class="text-6xl font-black tracking-tighter mb-6">RESERVE</h1>
+                <p class="text-xl tracking-widest text-slate-500">お席の確保・お問合せ</p>
+                <div class="mt-12 p-8 bg-morigaki-blue text-white inline-block">
+                    <p class="text-lg">お急ぎの方、当日のご予約はお電話にて承ります。</p>
+                    <p class="text-4xl font-black mt-4 tracking-widest">0796-22-2694</p>
+                </div>
+            </div>
+
+            <form class="space-y-12 bg-white p-12 shadow-2xl border border-slate-100">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-2">
+                        <label class="font-bold text-sm tracking-widest uppercase">お名前</label>
+                        <input type="text" class="w-full border-b-2 border-slate-200 py-3 focus:border-morigaki-blue outline-none transition-colors" placeholder="豊岡 太郎">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="font-bold text-sm tracking-widest uppercase">電話番号</label>
+                        <input type="tel" class="w-full border-b-2 border-slate-200 py-3 focus:border-morigaki-blue outline-none transition-colors" placeholder="000-0000-0000">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-2">
+                        <label class="font-bold text-sm tracking-widest uppercase">御来店希望日</label>
+                        <input type="date" class="w-full border-b-2 border-slate-200 py-3 focus:border-morigaki-blue outline-none transition-colors">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="font-bold text-sm tracking-widest uppercase">人数</label>
+                        <select class="w-full border-b-2 border-slate-200 py-3 focus:border-morigaki-blue outline-none transition-colors">
+                            <option>1名</option>
+                            <option>2名</option>
+                            <option>3名</option>
+                            <option>4名以上（要相談）</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="font-bold text-sm tracking-widest uppercase">備考・ご要望</label>
+                    <textarea class="w-full border-b-2 border-slate-200 py-3 focus:border-morigaki-blue outline-none transition-colors h-32" placeholder="苦手な食材や、お祝い事などお気軽にご記入ください。"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-morigaki-blue text-white py-6 font-bold text-xl tracking-widest hover:bg-slate-800 transition-colors">
+                    送信する
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-2xl font-black tracking-[0.5em] mb-4">酒屋もりがき</h3>
+            <p class="text-slate-400">© Sakaya Morigaki. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
