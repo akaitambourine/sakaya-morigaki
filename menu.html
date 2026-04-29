@@ -1,0 +1,139 @@
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お品書き | 酒屋もりがき</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-900 antialiased">
+    <div class="grain-overlay"></div>
+    
+    <nav class="fixed top-0 left-0 w-full z-40 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-widest text-morigaki-blue">酒屋もりがき</a>
+            <div class="hidden md:flex space-x-12 font-bold tracking-tighter">
+                <a href="index.html" class="nav-link relative text-sm tracking-widest">ホーム</a>
+                <a href="menu.html" class="nav-link relative text-sm tracking-widest">お品書き</a>
+                <a href="access.html" class="nav-link relative text-sm tracking-widest">アクセス</a>
+                <a href="reserve.html" class="nav-link relative text-sm tracking-widest">ご予約</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-40 pb-32">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-24">
+                <h1 class="text-6xl md:text-8xl font-black tracking-tighter mb-6">MENU</h1>
+                <p class="text-2xl tracking-[0.5em] text-slate-500">お品書き</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+                <!-- Sake -->
+                <section>
+                    <h2 class="text-3xl font-bold border-b-4 border-morigaki-blue pb-4 mb-12 flex items-center justify-between">
+                        <span>日本酒</span>
+                        <span class="text-sm font-normal text-slate-400">SAKE</span>
+                    </h2>
+                    <ul class="space-y-8">
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">本日の厳選銘柄</h3>
+                                <p class="text-sm text-slate-500 mt-1">店主がその日最も美味しい酒を選びます</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥500〜</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">地酒 飲み比べ三種</h3>
+                                <p class="text-sm text-slate-500 mt-1">但馬の酒を中心に、風味の違いを愉しむ</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥1,200</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">生原酒 季節の滴</h3>
+                                <p class="text-sm text-slate-500 mt-1">フレッシュな香りと濃厚な味わい</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥700</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Others -->
+                <section>
+                    <h2 class="text-3xl font-bold border-b-4 border-morigaki-blue pb-4 mb-12 flex items-center justify-between">
+                        <span>その他のお酒</span>
+                        <span class="text-sm font-normal text-slate-400">OTHERS</span>
+                    </h2>
+                    <ul class="space-y-8">
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">生ビール（小）</h3>
+                                <p class="text-sm text-slate-500 mt-1">まずは一杯、喉を潤す喜び</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥450</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">本格焼酎（芋・麦）</h3>
+                                <p class="text-sm text-slate-500 mt-1">ロック・水割り・お湯割りで</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥550</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4">
+                            <div>
+                                <h3 class="text-xl font-bold">瓶ビール（中瓶）</h3>
+                                <p class="text-sm text-slate-500 mt-1">酒屋ならではの冷えた一本</p>
+                            </div>
+                            <span class="text-xl font-bold italic">¥600</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Otsumami -->
+                <section class="md:col-span-2 mt-12">
+                    <h2 class="text-3xl font-bold border-b-4 border-morigaki-blue pb-4 mb-12 flex items-center justify-between">
+                        <span>酒の肴</span>
+                        <span class="text-sm font-normal text-slate-400">OTSUMAMI</span>
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-8">
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4 list-none">
+                            <h3 class="text-xl font-bold">炙りへしこ</h3>
+                            <span class="text-xl font-bold italic">¥400</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4 list-none">
+                            <h3 class="text-xl font-bold">季節の漬物盛り合わせ</h3>
+                            <span class="text-xl font-bold italic">¥350</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4 list-none">
+                            <h3 class="text-xl font-bold">酒屋のポテトサラダ</h3>
+                            <span class="text-xl font-bold italic">¥450</span>
+                        </li>
+                        <li class="flex justify-between items-end border-b border-slate-200 pb-4 list-none">
+                            <h3 class="text-xl font-bold">本日のお刺身（二種）</h3>
+                            <span class="text-xl font-bold italic">¥650〜</span>
+                        </li>
+                    </div>
+                </section>
+            </div>
+
+            <div class="mt-32 relative group overflow-hidden">
+                <img src="https://tanoshige.v2001.coreserver.jp/ai-web-studio/backups/project_ai-web-studio-backups/assets/ai_img_20260429_101116_ee42d1.png" class="w-full h-[400px] object-cover transition-transform duration-1000 group-hover:scale-110" data-ai-prompt="暗い背景に、美しく盛り付けられた和食のおつまみ。湯気が立ち上る小鉢や、新鮮なお刺身。照明がスポットライトのように当たり、食欲をそそるシネマティックな写真。" data-ai-last-sync="暗い背景に、美しく盛り付けられた和食のおつまみ。湯気が立ち上る小鉢や、新鮮なお刺身。照明がスポットライトのように当たり、食欲をそそるシネマティックな写真。、日本人">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <p class="text-white text-3xl font-bold tracking-[1em]">旬を味わう。</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-2xl font-black tracking-[0.5em] mb-4">酒屋もりがき</h3>
+            <p class="text-slate-400">© Sakaya Morigaki. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+
+</body></html>
